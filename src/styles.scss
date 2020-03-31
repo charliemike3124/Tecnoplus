@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #fff423;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+  --red: #0f0c49;
+  --red-darker: #ee3a23;
+  --blue: #0e0e1d;
+  --blue-lighter: #150f87; 
+  --text-white: #ececec;
+  --title-color: #2c2c2c;
+  --subtitle-color: rgba(45, 45, 57, 0.79);
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+
+.b-title {
+  color: var(--title-color);
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.md-title {
+  color: var(--title-color);
+  font-size: 1.25rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 30px; 
+}
+
+.b-subtitle {
+  color: var(--subtitle-color); 
+  font-size: 1.1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 30px;
+  opacity:0.75;
+}
+
+.bottom-border {
+  width: 150px;
+  height: 2px;
+  background-color: var(--red-darker); 
+  margin-right: auto;
+  margin-left: auto;
+}
