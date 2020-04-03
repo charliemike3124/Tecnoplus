@@ -4,8 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\Components",
-    "\\src\\app\\Components\\Nosotros"
+    "\\src\\app\\Components\\Nosotros",
+    "\\src\\app\\Components\\Servicios"
   ],
-  "SelectedNode": "\\src\\app\\Components\\Nosotros\\nosotros.component.scss",
+  "SelectedNode": "\\src\\app\\app.module.ts",
   "PreviewInSolutionExplorer": false
 }

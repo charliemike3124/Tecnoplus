@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/Tecnoplus",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
